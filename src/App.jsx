@@ -1,13 +1,5 @@
-import { useState } from 'react'
-
 function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <>
-      portfolio
-    </>
-  )
+  return <div>portfolio</div>;
 }
 
-export default App
+export default App;
