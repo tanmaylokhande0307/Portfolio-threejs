@@ -4,6 +4,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import deploy from "./deploy.webp"
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -24,9 +25,9 @@ import threejs from "./tech/threejs.svg";
 import wipro from "./company/wipro.png";
 import Zasmlabs from "./company/ZasmLabs.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import CollabBoard from "./collab-board.png"
+import ProjectManagement from "./project-management.png"
+import ContractAnalyzer from "./contract-analyzer.png";
 
 export {
   logo,
@@ -35,6 +36,7 @@ export {
   mobile,
   web,
   github,
+  deploy,
   menu,
   close,
   css,
@@ -52,7 +54,7 @@ export {
   threejs,
   wipro,
   Zasmlabs,
-  carrent,
-  jobit,
-  tripguide,
+  CollabBoard,
+  ProjectManagement,
+  ContractAnalyzer
 };

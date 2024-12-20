@@ -17,9 +17,9 @@ import {
   docker,
   wipro,
   Zasmlabs,
-  carrent,
-  jobit,
-  tripguide,
+  CollabBoard,
+  ProjectManagement,
+  ContractAnalyzer,
   threejs,
 } from "../assets";
 
@@ -161,67 +161,165 @@ const experiences = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "CollabBoard",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Developed a real time collaborative whiteboard and visual workspace where teams manage projects, design products and jot down their ideas.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "NextJs",
         color: "green-text-gradient",
+      },
+      {
+        name: "RadixUI",
+        color: "pink-text-gradient",
       },
       {
         name: "tailwind",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Clerk",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Convex",
         color: "pink-text-gradient",
       },
+      {
+        name: "LiveBlocks",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Zustand",
+        color: "green-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: CollabBoard,
+    source_code_link: "https://github.com/tanmaylokhande0307/CollabBoard",
+    deployed_link: "https://miroclone-xi.vercel.app/",
   },
   {
-    name: "Job IT",
+    name: "Project Management",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Developed a project management web application with a Kanban board and multiple task views featuring drag-and-drop functionality for flexible task and project management .",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "redux toolkit",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "react-dnd",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "recharts",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "redux-persist",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "NodeJs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "PostgresQL",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Prisma",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: ProjectManagement,
+    source_code_link:
+      "https://github.com/tanmaylokhande0307/project-management",
   },
   {
-    name: "Trip Guide",
+    name: "Contract Analyser",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Created an AI-powered tool for streamlining the process of contract analysis where users derive useful insights from the contracts. With user authentication and comprehensive dashboard displays.",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "react",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Tailwind css",
         color: "pink-text-gradient",
       },
+      {
+        name: "TanStack Query",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Zustand",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Redux",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "GenAI",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MongoDb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Mongoose",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Stripe",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Express",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Node",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Redis",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Resend",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Framer Motion",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "LLM (Gemini Pro)",
+        color: "blue-text-gradient",
+      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: ContractAnalyzer,
+    source_code_link: "https://github.com/tanmaylokhande0307/contract-analysis/",
   },
 ];
 
