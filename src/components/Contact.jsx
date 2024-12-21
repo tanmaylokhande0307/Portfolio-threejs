@@ -24,7 +24,43 @@ const Contact = () => {
       [name]: value,
     });
   };
-  const handleSubmit = (e) => {};
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setLoading(true);
+
+    emailjs
+      .send(
+        import.meta.env.VITE_MAIL_SERVICE_ID,
+        import.meta.env.VITE_MAIL_SERVICE_TEMPLATE,
+        {
+          from_name: form.name,
+          to_name: import.meta.env.VITE_TO,
+          from_email: form.email,
+          to_email: import.meta.env.VITE_MAIL_ID,
+          message: form.message,
+        },
+        import.meta.env.VITE_MAIL_SERVICE_PUBLIC_KEY
+      )
+      .then(
+        () => {
+          setLoading(false);
+          alert("Thankyou I'll get back to you as soon as possible");
+
+          setForm({
+            name: "",
+            email: "",
+            message: "",
+          });
+        },
+        (error) => {
+          setLoading(false);
+
+          console.log(error);
+
+          alert("Something went wrong");
+        }
+      );
+  };
 
   return (
     <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
